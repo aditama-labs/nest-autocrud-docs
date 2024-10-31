@@ -25,7 +25,10 @@ export class MenuComponent implements OnInit {
     {
       title: 'Overview',
       isOpened: true,
-      children: [{ title: 'Quickstart', path: '/quickstart' }],
+      children: [
+        { title: 'Quickstart', path: '/quickstart' },
+        { title: 'Custom Process', path: '/custom-process' },
+      ],
     },
   ];
 

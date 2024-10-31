@@ -16,6 +16,7 @@ import { MenuComponent } from './homepage/menu/menu.component';
 import { QuickstartComponent } from './homepage/pages/quickstart/quickstart.component';
 import { BasePageComponent } from './homepage/pages/page/page.component';
 import { SharedModule } from './shared/shared.module';
+import { CustomProcessComponent } from './homepage/pages/custom-process/custom-process.component';
 
 @NgModule({
   declarations: [
@@ -25,9 +26,11 @@ import { SharedModule } from './shared/shared.module';
     FooterComponent,
     MenuComponent,
     MenuItemComponent,
-    QuickstartComponent,
     BasePageComponent,
     SocialWrapperComponent,
+    // Component Related to Content
+    QuickstartComponent,
+    CustomProcessComponent,
   ],
   bootstrap: [AppComponent],
   imports: [

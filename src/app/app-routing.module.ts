@@ -3,6 +3,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import { HomepageComponent } from './homepage/homepage.component';
 import { QuickstartComponent } from './homepage/pages/quickstart/quickstart.component';
 import { IntroductionComponent } from './homepage/pages/introduction/introduction.component';
+import { CustomProcessComponent } from './homepage/pages/custom-process/custom-process.component';
 
 const routes: Routes = [
   {
@@ -19,8 +20,9 @@ const routes: Routes = [
         data: { title: 'Quickstart' },
       },
       {
-        path: 'components',
-        redirectTo: 'providers',
+        path: 'custom-process',
+        component: CustomProcessComponent,
+        data: { title: 'Custom Process' },
       },
     ],
   },
