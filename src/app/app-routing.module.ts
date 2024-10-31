@@ -4,6 +4,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { QuickstartComponent } from './homepage/pages/quickstart/quickstart.component';
 import { IntroductionComponent } from './homepage/pages/introduction/introduction.component';
 import { CustomProcessComponent } from './homepage/pages/custom-process/custom-process.component';
+import { LifecycleOfProcessComponent } from './homepage/pages/lifecycle-of-process/lifecycle-of-process.component';
 
 const routes: Routes = [
   {
@@ -23,6 +24,11 @@ const routes: Routes = [
         path: 'custom-process',
         component: CustomProcessComponent,
         data: { title: 'Custom Process' },
+      },
+      {
+        path: 'lifecycle-of-process',
+        component: LifecycleOfProcessComponent,
+        data: { title: 'Lifecycle of Process' },
       },
     ],
   },

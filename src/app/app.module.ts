@@ -17,6 +17,7 @@ import { QuickstartComponent } from './homepage/pages/quickstart/quickstart.comp
 import { BasePageComponent } from './homepage/pages/page/page.component';
 import { SharedModule } from './shared/shared.module';
 import { CustomProcessComponent } from './homepage/pages/custom-process/custom-process.component';
+import { LifecycleOfProcessComponent } from './homepage/pages/lifecycle-of-process/lifecycle-of-process.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { CustomProcessComponent } from './homepage/pages/custom-process/custom-p
     // Component Related to Content
     QuickstartComponent,
     CustomProcessComponent,
+    LifecycleOfProcessComponent,
   ],
   bootstrap: [AppComponent],
   imports: [

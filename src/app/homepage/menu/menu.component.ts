@@ -28,6 +28,7 @@ export class MenuComponent implements OnInit {
       children: [
         { title: 'Quickstart', path: '/quickstart' },
         { title: 'Custom Process', path: '/custom-process' },
+        { title: 'Lifecycle of Process', path: '/lifecycle-of-process' },
       ],
     },
   ];
