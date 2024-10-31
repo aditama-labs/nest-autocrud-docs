@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import { HomepageComponent } from './homepage/homepage.component';
-import { FirstStepsComponent } from './homepage/pages/first-steps/first-steps.component';
+import { QuickstartComponent } from './homepage/pages/quickstart/quickstart.component';
 import { IntroductionComponent } from './homepage/pages/introduction/introduction.component';
 
 const routes: Routes = [
@@ -14,9 +14,9 @@ const routes: Routes = [
         component: IntroductionComponent,
       },
       {
-        path: 'first-steps',
-        component: FirstStepsComponent,
-        data: { title: 'First steps' },
+        path: 'quickstart',
+        component: QuickstartComponent,
+        data: { title: 'Quickstart' },
       },
       {
         path: 'components',

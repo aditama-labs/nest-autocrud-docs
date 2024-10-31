@@ -13,7 +13,7 @@ import { HeaderComponent } from './homepage/header/header.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { MenuItemComponent } from './homepage/menu/menu-item/menu-item.component';
 import { MenuComponent } from './homepage/menu/menu.component';
-import { FirstStepsComponent } from './homepage/pages/first-steps/first-steps.component';
+import { QuickstartComponent } from './homepage/pages/quickstart/quickstart.component';
 import { BasePageComponent } from './homepage/pages/page/page.component';
 import { SharedModule } from './shared/shared.module';
 
@@ -25,7 +25,7 @@ import { SharedModule } from './shared/shared.module';
     FooterComponent,
     MenuComponent,
     MenuItemComponent,
-    FirstStepsComponent,
+    QuickstartComponent,
     BasePageComponent,
     SocialWrapperComponent,
   ],
