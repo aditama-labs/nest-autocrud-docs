@@ -1,45 +1,27 @@
 ### Introduction
 
-Nest (NestJS) is a framework for building efficient, scalable [Node.js](https://nodejs.org/) server-side applications. It uses progressive JavaScript, is built with and fully supports [TypeScript](http://www.typescriptlang.org/) (yet still enables developers to code in pure JavaScript) and combines elements of OOP (Object Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming).
+[NestJS](https://nestjs.com/) has established itself as a powerful framework for crafting robust and scalable Node.js server-side applications. While NestJS excels in many areas, the lack of a built-in, highly customizable CRUD (Create, Read, Update, Delete) system can sometimes pose a challenge. Here's where AutoCRUD steps in, offering a comprehensive solution tailored to your specific use cases.
 
-Under the hood, Nest makes use of robust HTTP Server frameworks like [Express](https://expressjs.com/) (the default) and optionally can be configured to use [Fastify](https://github.com/fastify/fastify) as well!
+#### Customization at Its Core
 
-Nest provides a level of abstraction above these common Node.js frameworks (Express/Fastify), but also exposes their APIs directly to the developer. This gives developers the freedom to use the myriad of third-party modules which are available for the underlying platform.
+Nest AutoCRUD distinguishes itself from conventional CRUD libraries by prioritizing extreme customization. It empowers you to define precisely how your CRUD operations behave, ensuring a seamless fit within your application's architecture. This level of control contrasts with many existing libraries, which often enforce limitations or require significant workarounds to achieve the desired functionality.
 
-#### Philosophy
+#### Leveraging Expertise for a Streamlined Approach
 
-In recent years, thanks to Node.js, JavaScript has become the “lingua franca” of the web for both front and backend applications. This has given rise to awesome projects like [Angular](https://angular.dev/), [React](https://github.com/facebook/react) and [Vue](https://github.com/vuejs/vue), which improve developer productivity and enable the creation of fast, testable, and extensible frontend applications. However, while plenty of superb libraries, helpers, and tools exist for Node (and server-side JavaScript), none of them effectively solve the main problem of - **Architecture**.
+This AutoCRUD system stems from the collaborative efforts of a software architect with extensive experience in building complex applications. This background translates into a well-considered design that streamlines CRUD operations while maintaining the flexibility you need to adapt to various scenarios.
 
-Nest provides an out-of-the-box application architecture which allows developers and teams to create highly testable, scalable, loosely coupled, and easily maintainable applications. The architecture is heavily inspired by Angular.
+#### Beyond the Basics
+
+While the core focus of AutoCRUD lies in efficiently managing CRUD operations, it's envisioned to extend beyond these fundamental functionalities. Additional features and enhancements are planned for the future, with the goal of providing a comprehensive toolkit for your Node.js development endeavors within the NestJS framework.
+
+#### A Philosophy of Simplicity in Complexity
+
+Nest AutoCRUD is more than just a tool; it's a philosophy. Like Einstein's elegant equation, E=mc², it aims to encapsulate complex ideas into a simple, yet powerful solution. We believe that complex systems can be made accessible through intuitive and straightforward interfaces.
+
+AutoCRUD strives to minimize the cognitive load required to implement CRUD operations, allowing developers to focus on the core logic of their applications. While simplicity is essential, flexibility is equally important. AutoCRUD empowers developers to tailor the system to their specific needs, ensuring seamless integration with existing architectures.
 
 #### Installation
 
-To get started, you can either scaffold the project with the [Nest CLI](/cli/overview), or [clone a starter project](#alternatives) (both will produce the same outcome).
-
-To scaffold the project with the Nest CLI, run the following commands. This will create a new project directory, and populate the directory with the initial core Nest files and supporting modules, creating a conventional base structure for your project. Creating a new project with the **Nest CLI** is recommended for first-time users. We'll continue with this approach in [First Steps](first-steps).
-
 ```bash
-$ npm i -g @nestjs/cli
-$ nest new project-name
+$ npm i @aditama-labs/nest-autocrud
 ```
-
-> info **Hint** To create a new TypeScript project with stricter feature set, pass the `--strict` flag to the `nest new` command.
-
-#### Alternatives
-
-Alternatively, to install the TypeScript starter project with **Git**:
-
-```bash
-$ git clone https://github.com/nestjs/typescript-starter.git project
-$ cd project
-$ npm install
-$ npm run start
-```
-
-> info **Hint** If you'd like to clone the repository without the git history, you can use [degit](https://github.com/Rich-Harris/degit).
-
-Open your browser and navigate to [`http://localhost:3000/`](http://localhost:3000/).
-
-To install the JavaScript flavor of the starter project, use `javascript-starter.git` in the command sequence above.
-
-You can also start a new project from scratch by installing the core and supporting packages. Keep in mind that you'll need to set up the project boilerplate files on your own. At a minimum, you'll need these dependencies: `@nestjs/core`, `@nestjs/common`, `rxjs`, and `reflect-metadata`. Check out this short article on how to create a complete project: [5 steps to create a bare minimum NestJS app from scratch!](https://dev.to/micalevisk/5-steps-to-create-a-bare-minimum-nestjs-app-from-scratch-5c3b).
