@@ -6,7 +6,7 @@ import {
   HostListener,
   OnDestroy,
   OnInit,
-  ViewEncapsulation
+  ViewEncapsulation,
 } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
 import { fromEvent, Subscription } from 'rxjs';
