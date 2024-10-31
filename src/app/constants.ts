@@ -1,2 +1,2 @@
-export const HOMEPAGE_TITLE = 'Documentation';
-export const TITLE_SUFFIX = ' | NestJS - A progressive Node.js framework';
+export const HOMEPAGE_TITLE = 'Nest AutoCRUD Documentation';
+export const TITLE_SUFFIX = '';
